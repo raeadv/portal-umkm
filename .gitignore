@@ -1,0 +1,12 @@
+*.exe
+*.test
+*.out
+.env
+.idea/
+.vscode/
+tmp/
+compiled/
+uploads/
+bin/
+.claude/*
+.remember/*

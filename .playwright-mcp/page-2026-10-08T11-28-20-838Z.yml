@@ -1,0 +1,42 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link [ref=f2e6] [cursor=pointer]:
+        - /url: /
+        - heading "Map UMKM" [level=3] [ref=f2e7]
+      - generic [ref=f2e8]:
+        - link [ref=f2e9] [cursor=pointer]:
+          - /url: /umkm
+          - paragraph [ref=f2e10]: Data UMKM
+        - link [ref=f2e11] [cursor=pointer]:
+          - /url: /map
+          - paragraph [ref=f2e12]: Preview Peta
+        - link [ref=f2e13] [cursor=pointer]:
+          - /url: /community
+          - paragraph [ref=f2e14]: Community
+  - main [ref=f2e15]:
+    - generic [ref=f2e18]:
+      - generic [ref=f2e21]:
+        - button "Cari" [ref=f2e23] [cursor=pointer]
+        - textbox "Cari alamat atau tempat" [ref=f2e28]
+      - generic [ref=f2e29]:
+        - generic:
+          - generic:
+            - button "Marker" [ref=f2e30] [cursor=pointer]
+            - button "Marker" [ref=f2e31] [cursor=pointer]
+        - generic:
+          - generic [ref=f2e32]:
+            - button "Zoom in" [ref=f2e33] [cursor=pointer]: +
+            - button "Zoom out" [ref=f2e34] [cursor=pointer]: −
+          - generic [ref=f2e35]:
+            - link "Leaflet" [ref=f2e36] [cursor=pointer]:
+              - /url: https://leafletjs.com
+            - text: "| ©"
+            - link "OpenStreetMap" [ref=f2e41] [cursor=pointer]:
+              - /url: https://www.openstreetmap.org/copyright
+            - text: contributors
+  - generic:
+    - contentinfo:
+      - button "Open TanStack Router Devtools" [ref=f2e42] [cursor=pointer]:
+        - generic [ref=f2e114]: "-"
+        - generic [ref=f2e115]: TanStack Router

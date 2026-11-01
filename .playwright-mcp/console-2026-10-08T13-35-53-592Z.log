@@ -1,0 +1,72 @@
+[     881ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:15804
+[    1164ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5173/api/v1/auth/me:0
+[    1167ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5173/api/v1/auth/me:0
+[   15354ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:15804
+[   15504ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5173/api/v1/auth/me:0
+[   15505ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:5173/api/v1/auth/me:0
+[  581896ms] [ERROR] %o
+
+%s
+
+%s
+ ReferenceError: auth is not defined
+    at DetailPage (http://localhost:5173/src/routes/detail/$id.jsx?t=1791467134726&tsr-split=component:27:4)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:14142:12)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:4400:19)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:5775:16)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:6391:20)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:944:66)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9148:92)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9044:37)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9028:6)
+    at performWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:8715:27) The above error occurred in the <DetailPage> component. React will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundary. @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:5466
+[  581898ms] [WARNING] Warning: The following error wasn't caught by any route! At the very least, consider setting an 'errorComponent' in your RootRoute! @ http://localhost:5173/node_modules/.vite/deps/index.dev-D6Rzna2Y.js?v=c2aaf521:6895
+[  581898ms] [WARNING] Warning: ReferenceError: auth is not defined
+    at DetailPage (http://localhost:5173/src/routes/detail/$id.jsx?t=1791467134726&tsr-split=component:27:4)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:14142:12)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:4400:19)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:5775:16)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:6391:20)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:944:66)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9148:92)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9044:37)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9028:6)
+    at performWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:8715:27) @ http://localhost:5173/node_modules/.vite/deps/index.dev-D6Rzna2Y.js?v=c2aaf521:6896
+[  582113ms] [ERROR] %o
+
+%s
+
+%s
+ ReferenceError: auth is not defined
+    at DetailPage (http://localhost:5173/src/routes/detail/$id.jsx?t=1791467134726&tsr-split=component:27:4)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:14142:12)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:4400:19)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:5775:16)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:6391:20)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:944:66)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9148:92)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9044:37)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9028:6)
+    at performWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:8715:27) The above error occurred in the <DetailPage> component. React will try to recreate this component tree from scratch using the error boundary you provided, CatchBoundary. @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:5466
+[  582114ms] [WARNING] Warning: The following error wasn't caught by any route! At the very least, consider setting an 'errorComponent' in your RootRoute! @ http://localhost:5173/node_modules/.vite/deps/index.dev-D6Rzna2Y.js?v=c2aaf521:6895
+[  582115ms] [WARNING] Warning: ReferenceError: auth is not defined
+    at DetailPage (http://localhost:5173/src/routes/detail/$id.jsx?t=1791467134726&tsr-split=component:27:4)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:14142:12)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:4400:19)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:5775:16)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:6391:20)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:944:66)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9148:92)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9044:37)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:9028:6)
+    at performWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:8715:27) @ http://localhost:5173/node_modules/.vite/deps/index.dev-D6Rzna2Y.js?v=c2aaf521:6896
+[  582921ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5173/src/routes/_authenticated/map/index.jsx?t=1791467136504:0
+[  582922ms] [ERROR] [vite] Failed to reload /src/routes/_authenticated/map/index.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:1013
+[  587097ms] Transition was aborted because of timeout in DOM update. DOM update timed out
+[  592647ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:15804
+[  969875ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=c2aaf521:15804
+[  973069ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:5173/api/v1/auth/update:0
+[  973083ms] [ERROR] error updating profile:  AxiosError: Request failed with status code 400
+    at settle (http://localhost:5173/node_modules/.vite/deps/axios.js?v=c2aaf521:2078:14)
+    at XMLHttpRequest.onloadend (http://localhost:5173/node_modules/.vite/deps/axios.js?v=c2aaf521:2539:4) @ http://localhost:5173/src/routes/_authenticated/user-profile.jsx?t=1791467515538&tsr-split=component:160
+[10233325ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:1081

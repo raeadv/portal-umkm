@@ -1,0 +1,131 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link [ref=f3e6] [cursor=pointer]:
+        - /url: /
+        - heading "Map UMKM" [level=3] [ref=f3e7]
+      - generic [ref=f3e8]:
+        - link [ref=f3e9] [cursor=pointer]:
+          - /url: /admin
+          - paragraph [ref=f3e10]: Dashboard
+        - link [ref=f3e11] [cursor=pointer]:
+          - /url: /umkm
+          - paragraph [ref=f3e12]: Data UMKM
+        - link [ref=f3e13] [cursor=pointer]:
+          - /url: /user-profile
+          - paragraph [ref=f3e14]: Profil User
+  - main [ref=f3e15]:
+    - generic [ref=f3e17]:
+      - generic [ref=f3e18]:
+        - paragraph [ref=f3e19]: DASHBOARD
+        - link "Tambah UMKM" [ref=f3e20] [cursor=pointer]:
+          - /url: /umkm/create
+      - generic [ref=f3e23]:
+        - generic [ref=f3e24]:
+          - paragraph [ref=f3e25]: Total UMKM
+          - paragraph [ref=f3e26]: "20"
+        - generic [ref=f3e27]:
+          - paragraph [ref=f3e28]: Baru (30 hari)
+          - paragraph [ref=f3e29]: "20"
+        - generic [ref=f3e30]:
+          - paragraph [ref=f3e31]: Punya foto
+          - paragraph [ref=f3e32]: 5%
+          - paragraph [ref=f3e33]: 1 dari 20 UMKM
+        - generic [ref=f3e34]:
+          - paragraph [ref=f3e35]: Total foto
+          - paragraph [ref=f3e36]: "5"
+      - generic [ref=f3e37]:
+        - generic [ref=f3e38]:
+          - paragraph [ref=f3e39]: Per kategori
+          - generic [ref=f3e40]:
+            - generic [ref=f3e41]:
+              - generic [ref=f3e42]: Kuliner
+              - generic [ref=f3e43]: "10"
+            - progressbar [ref=f3e45]
+          - generic [ref=f3e46]:
+            - generic [ref=f3e47]:
+              - generic [ref=f3e48]: Fashion
+              - generic [ref=f3e49]: "4"
+            - progressbar [ref=f3e51]
+          - generic [ref=f3e52]:
+            - generic [ref=f3e53]:
+              - generic [ref=f3e54]: Jasa
+              - generic [ref=f3e55]: "4"
+            - progressbar [ref=f3e57]
+          - generic [ref=f3e58]:
+            - generic [ref=f3e59]:
+              - generic [ref=f3e60]: Kerajinan
+              - generic [ref=f3e61]: "2"
+            - progressbar [ref=f3e63]
+        - generic [ref=f3e64]:
+          - paragraph [ref=f3e65]: Barang / Jasa
+          - generic [ref=f3e66]:
+            - generic [ref=f3e67]:
+              - generic [ref=f3e68]: Barang
+              - generic [ref=f3e69]: "16"
+            - progressbar [ref=f3e71]
+          - generic [ref=f3e72]:
+            - generic [ref=f3e73]:
+              - generic [ref=f3e74]: Jasa
+              - generic [ref=f3e75]: "4"
+            - progressbar [ref=f3e77]
+        - generic [ref=f3e78]:
+          - paragraph [ref=f3e79]: Provinsi teratas
+          - generic [ref=f3e80]:
+            - generic [ref=f3e81]:
+              - generic [ref=f3e82]: KALIMANTAN BARAT
+              - generic [ref=f3e83]: "10"
+            - progressbar [ref=f3e85]
+          - generic [ref=f3e86]:
+            - generic [ref=f3e87]:
+              - generic [ref=f3e88]: DKI JAKARTA
+              - generic [ref=f3e89]: "10"
+            - progressbar [ref=f3e91]
+      - generic [ref=f3e92]:
+        - generic [ref=f3e93]:
+          - paragraph [ref=f3e94]: UMKM terbaru
+          - link "Lihat semua" [ref=f3e95] [cursor=pointer]:
+            - /url: /umkm
+        - table [ref=f3e100]:
+          - rowgroup [ref=f3e101]:
+            - row [ref=f3e102]:
+              - columnheader "Nama" [ref=f3e103]
+              - columnheader "Kategori" [ref=f3e104]
+              - columnheader "Jenis" [ref=f3e105]
+              - columnheader "Ditambahkan" [ref=f3e106]
+          - rowgroup [ref=f3e107]:
+            - row [ref=f3e108]:
+              - cell [ref=f3e109]:
+                - link "Ciel Sowal" [ref=f3e110] [cursor=pointer]:
+                  - /url: /detail/db3o27rv2ke4m3d9morg
+              - cell "Jasa" [ref=f3e111]
+              - cell "Jasa" [ref=f3e112]
+              - cell "8 Okt 2026" [ref=f3e115]
+            - row [ref=f3e116]:
+              - cell [ref=f3e117]:
+                - link "Beauty +" [ref=f3e118] [cursor=pointer]:
+                  - /url: /detail/db3o27rv2ke4m3d9mor0
+              - cell "Jasa" [ref=f3e119]
+              - cell "Jasa" [ref=f3e120]
+              - cell "8 Okt 2026" [ref=f3e123]
+            - row [ref=f3e124]:
+              - cell [ref=f3e125]:
+                - link "La La Lab" [ref=f3e126] [cursor=pointer]:
+                  - /url: /detail/db3o27rv2ke4m3d9moqg
+              - cell "Kerajinan" [ref=f3e127]
+              - cell "Barang" [ref=f3e128]
+              - cell "8 Okt 2026" [ref=f3e131]
+            - row [ref=f3e132]:
+              - cell [ref=f3e133]:
+                - link "Chandra" [ref=f3e134] [cursor=pointer]:
+                  - /url: /detail/db3o27rv2ke4m3d9moq0
+              - cell "Fashion" [ref=f3e135]
+              - cell "Barang" [ref=f3e136]
+              - cell "8 Okt 2026" [ref=f3e139]
+            - row [ref=f3e140]:
+              - cell [ref=f3e141]:
+                - link "KEE Indonesia" [ref=f3e142] [cursor=pointer]:
+                  - /url: /detail/db3o27rv2ke4m3d9mopg
+              - cell "Fashion" [ref=f3e143]
+              - cell "Barang" [ref=f3e144]
+              - cell "8 Okt 2026" [ref=f3e147]

@@ -1,0 +1,26 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: /
+          - heading "Map UMKM" [level=3] [ref=e7]
+        - generic [ref=e8]:
+          - link [ref=e9] [cursor=pointer]:
+            - /url: /auth/login
+            - paragraph [ref=e10]: Login
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /auth/register
+            - paragraph [ref=e12]: Register
+    - main [ref=e13]:
+      - generic [ref=e14]: Hello "/_authenticated/admin/"!
+    - generic:
+      - contentinfo:
+        - button "Open TanStack Router Devtools" [ref=e42] [cursor=pointer]:
+          - generic [ref=e114]: "-"
+          - generic [ref=e115]: TanStack Router
+  - alert [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]: Berhasil
+      - generic [ref=e122]: Login Sukses
+    - button [ref=e123] [cursor=pointer]

@@ -1,0 +1,120 @@
+- generic [active] [ref=f3e25]:
+  - generic [ref=f3e27]:
+    - banner [ref=f3e28]:
+      - generic [ref=f3e29]:
+        - link [ref=f3e30] [cursor=pointer]:
+          - /url: /
+          - heading "Map UMKM" [level=3] [ref=f3e31]
+        - generic [ref=f3e32]:
+          - link [ref=f3e33] [cursor=pointer]:
+            - /url: /umkm
+            - paragraph [ref=f3e34]: Data UMKM
+          - link [ref=f3e35] [cursor=pointer]:
+            - /url: /map
+            - paragraph [ref=f3e36]: Preview Peta
+          - link [ref=f3e37] [cursor=pointer]:
+            - /url: /community
+            - paragraph [ref=f3e38]: Community
+    - main [ref=f3e1]:
+      - generic [ref=f3e2]:
+        - generic [ref=f3e39]:
+          - paragraph [ref=f3e41]: EDIT UMKM
+          - separator [ref=f3e42]
+          - generic [ref=f3e43]:
+            - generic [ref=f3e44]:
+              - generic [ref=f3e45]: Nama UMKM *
+              - textbox "Nama UMKM" [ref=f3e47]:
+                - /placeholder: Kopi Asiang
+                - text: Kopi Playwright
+            - generic [ref=f3e48]:
+              - generic [ref=f3e49]: Kategori *
+              - combobox "Kategori" [ref=f3e51] [cursor=pointer]: Kuliner
+            - generic [ref=f3e52]:
+              - generic [ref=f3e53]: Jenis Usaha *
+              - combobox "Jenis Usaha" [ref=f3e55] [cursor=pointer]: Barang
+            - generic [ref=f3e56]:
+              - generic [ref=f3e57]: Nomor Telepon
+              - textbox "Nomor Telepon" [ref=f3e59]:
+                - /placeholder: "08123456789"
+            - generic [ref=f3e60]:
+              - generic [ref=f3e61]: Media Sosial
+              - textbox "Media Sosial" [ref=f3e63]:
+                - /placeholder: "@kopiasiang"
+            - generic [ref=f3e64]:
+              - generic [ref=f3e65]: Keterangan
+              - textbox "Keterangan" [ref=f3e67]:
+                - /placeholder: Barang/jasa yang ditawarkan
+            - separator [ref=f3e68]:
+              - generic [ref=f3e69]: Alamat
+            - generic [ref=f3e70]:
+              - generic [ref=f3e71]: Provinsi
+              - generic [ref=f3e72]:
+                - combobox "Provinsi" [ref=f3e73]: BALI
+                - button [aria-hidden] [ref=f3e74] [cursor=pointer]
+            - generic [ref=f3e77]:
+              - generic [ref=f3e78]: Kabupaten/Kota
+              - generic [ref=f3e79]:
+                - combobox "Kabupaten/Kota" [ref=f3e80]
+                - button [aria-hidden] [ref=f3e81] [cursor=pointer]
+            - generic [ref=f3e84]:
+              - generic [ref=f3e85]: Kecamatan
+              - combobox "Kecamatan" [disabled] [ref=f3e87]
+            - generic [ref=f3e88]:
+              - generic [ref=f3e89]: Kelurahan/Desa
+              - combobox "Kelurahan/Desa" [disabled] [ref=f3e91]
+            - generic [ref=f3e92]:
+              - generic [ref=f3e93]: Alamat Lengkap
+              - textbox "Alamat Lengkap" [ref=f3e95]:
+                - /placeholder: Jl. Merdeka No. 10
+            - separator [ref=f3e96]:
+              - generic [ref=f3e97]: Lokasi
+            - generic [ref=f3e98]:
+              - button "Gunakan lokasi saya" [ref=f3e99] [cursor=pointer]
+              - generic [ref=f3e103]:
+                - button "Marker" [ref=f3e104] [cursor=pointer]
+                - generic:
+                  - generic [ref=f3e105]:
+                    - button "Zoom in" [ref=f3e106] [cursor=pointer]: +
+                    - button "Zoom out" [ref=f3e107] [cursor=pointer]: −
+                  - generic [ref=f3e108]:
+                    - link "Leaflet" [ref=f3e109] [cursor=pointer]:
+                      - /url: https://leafletjs.com
+                    - text: "| ©"
+                    - link "OpenStreetMap" [ref=f3e114] [cursor=pointer]:
+                      - /url: https://www.openstreetmap.org/copyright
+                    - text: contributors
+            - generic [ref=f3e115]:
+              - generic [ref=f3e116]:
+                - generic [ref=f3e117]: Latitude *
+                - textbox "Latitude" [ref=f3e119]: "-0.026005"
+              - generic [ref=f3e120]:
+                - generic [ref=f3e121]: Longitude *
+                - textbox "Longitude" [ref=f3e123]: "109.341989"
+            - paragraph [ref=f3e124]: Klik peta atau geser pin untuk mengubah lokasi.
+            - separator [ref=f3e125]
+            - button "Simpan" [ref=f3e126] [cursor=pointer]
+        - generic [ref=f3e129]:
+          - paragraph [ref=f3e130]: Foto
+          - separator [ref=f3e131]
+          - generic [ref=f3e132]:
+            - generic [ref=f3e133]:
+              - generic [ref=f3e134]:
+                - generic [ref=f3e135]: Foto
+                - button "Foto" [ref=f3e137] [cursor=pointer]: Pilih foto
+              - generic [ref=f3e138]:
+                - generic [ref=f3e139]: Caption
+                - textbox "Caption" [ref=f3e141]:
+                  - /placeholder: Tampak depan
+              - button "Upload Foto" [disabled] [ref=f3e142]
+            - paragraph [ref=f3e232]: Belum ada foto.
+        - button "Hapus UMKM" [ref=f3e155] [cursor=pointer]
+    - generic:
+      - contentinfo:
+        - button "Open TanStack Router Devtools" [ref=f3e158] [cursor=pointer]:
+          - generic [ref=f3e230]: "-"
+          - generic [ref=f3e231]: TanStack Router
+  - alert [ref=f3e235]:
+    - generic [ref=f3e236]:
+      - generic [ref=f3e237]: Berhasil
+      - generic [ref=f3e238]: Foto berhasil dihapus
+    - button [ref=f3e239] [cursor=pointer]

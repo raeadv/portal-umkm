@@ -1,0 +1,34 @@
+- generic [active] [ref=f3e25]:
+  - generic [ref=f3e27]:
+    - banner [ref=f3e28]:
+      - generic [ref=f3e29]:
+        - link [ref=f3e30] [cursor=pointer]:
+          - /url: /
+          - heading "Map UMKM" [level=3] [ref=f3e31]
+        - generic [ref=f3e32]:
+          - link [ref=f3e33] [cursor=pointer]:
+            - /url: /umkm
+            - paragraph [ref=f3e34]: Data UMKM
+          - link [ref=f3e35] [cursor=pointer]:
+            - /url: /map
+            - paragraph [ref=f3e36]: Preview Peta
+          - link [ref=f3e37] [cursor=pointer]:
+            - /url: /community
+            - paragraph [ref=f3e38]: Community
+    - main [ref=f3e1]:
+      - generic [ref=f3e242]:
+        - generic [ref=f3e243]:
+          - paragraph [ref=f3e244]: DATA UMKM
+          - link "Tambah UMKM" [ref=f3e245] [cursor=pointer]:
+            - /url: /umkm/create
+        - paragraph [ref=f3e248]: Belum ada data UMKM.
+    - generic:
+      - contentinfo:
+        - button "Open TanStack Router Devtools" [ref=f3e158] [cursor=pointer]:
+          - generic [ref=f3e230]: "-"
+          - generic [ref=f3e231]: TanStack Router
+  - alert [ref=f3e249]:
+    - generic [ref=f3e250]:
+      - generic [ref=f3e251]: Berhasil
+      - generic [ref=f3e252]: UMKM berhasil dihapus
+    - button [ref=f3e253] [cursor=pointer]

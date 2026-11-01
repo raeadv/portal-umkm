@@ -1,0 +1,55 @@
+- generic [ref=f1e4]:
+  - banner [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - link [ref=f1e7] [cursor=pointer]:
+        - /url: /
+        - heading "Map UMKM" [level=3] [ref=f1e8]
+      - generic [ref=f1e9]:
+        - link [ref=f1e10] [cursor=pointer]:
+          - /url: /umkm
+          - paragraph [ref=f1e11]: Data UMKM
+        - link [ref=f1e12] [cursor=pointer]:
+          - /url: /map
+          - paragraph [ref=f1e13]: Preview Peta
+        - link [ref=f1e14] [cursor=pointer]:
+          - /url: /community
+          - paragraph [ref=f1e15]: Community
+  - main [ref=f1e16]:
+    - generic [ref=f1e19]:
+      - generic [ref=f1e20]:
+        - generic [ref=f1e22]:
+          - button "Cari" [ref=f1e24] [cursor=pointer]
+          - textbox "Cari alamat atau tempat" [active] [ref=f1e29]: Jalan Ahmad Yani Pontianak
+          - button "Hapus pencarian" [ref=f1e31] [cursor=pointer]
+        - generic [ref=f1e36]:
+          - button [ref=f1e37] [cursor=pointer]:
+            - paragraph [ref=f1e38]: Jalan Ahmad Yani, Benua Melayu Darat, Pontianak Selatan, Pontianak, Kalimantan Barat, 78117, Indonesia
+          - button [ref=f1e39] [cursor=pointer]:
+            - paragraph [ref=f1e40]: Jalan Ahmad Yani, Benua Melayu Darat, Pontianak Selatan, Pontianak, Kalimantan Barat, 71127, Indonesia
+          - button [ref=f1e41] [cursor=pointer]:
+            - paragraph [ref=f1e42]: Jalan Ahmad Yani, Bansir Darat, Pontianak Tenggara, Pontianak, Kalimantan Barat, 79124, Indonesia
+          - button [ref=f1e43] [cursor=pointer]:
+            - paragraph [ref=f1e44]: Jalan Ahmad Yani, Bangka Belitung Laut, Pontianak Tenggara, Pontianak, Kalimantan Barat, 79124, Indonesia
+          - button [ref=f1e45] [cursor=pointer]:
+            - paragraph [ref=f1e46]: Jalan Ahmad Yani, Bansir Laut, Pontianak Tenggara, Pontianak, Kalimantan Barat, 79124, Indonesia
+      - generic [ref=f1e47]:
+        - generic:
+          - generic:
+            - button "Marker" [ref=f1e48] [cursor=pointer]
+            - button "Marker" [ref=f1e133] [cursor=pointer]
+        - generic:
+          - generic [ref=f1e49]:
+            - button "Zoom in" [ref=f1e50] [cursor=pointer]: +
+            - button "Zoom out" [ref=f1e51] [cursor=pointer]: −
+          - generic [ref=f1e52]:
+            - link "Leaflet" [ref=f1e53] [cursor=pointer]:
+              - /url: https://leafletjs.com
+            - text: "| ©"
+            - link "OpenStreetMap" [ref=f1e58] [cursor=pointer]:
+              - /url: https://www.openstreetmap.org/copyright
+            - text: contributors
+  - generic:
+    - contentinfo:
+      - button "Open TanStack Router Devtools" [ref=f1e59] [cursor=pointer]:
+        - generic [ref=f1e131]: "-"
+        - generic [ref=f1e132]: TanStack Router
